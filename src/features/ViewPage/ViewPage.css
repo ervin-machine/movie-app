@@ -1,0 +1,29 @@
+.view-page-container {
+    position: absolute;
+    width: 100%;
+}
+
+.back-content {
+    display: flex;
+}
+
+.back-text {
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.view-page-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+}
+
+@media screen and (max-width: 600px) {
+    .view-page-img {
+        width: 200px;
+    }
+    .view-page-overview {
+        font-size: 10px;
+    }
+}
