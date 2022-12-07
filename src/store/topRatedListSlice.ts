@@ -4,7 +4,7 @@ import { createSlice,PayloadAction } from "@reduxjs/toolkit";
 const initialState:any={
     topRatedMovies:[],
     topRatedTVShow: [],
-    whatsFetching: "movies",
+    whatsFetching: "tvshows",
     searchTerm: "",
     selectedMovie: {},
     selectedTVShow: {},
